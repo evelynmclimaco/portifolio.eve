@@ -19,18 +19,30 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 10px 20px;
-  position: relative;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .cargo {
   font-size: 20px;
   text-align: center;
   background: rgb(255, 168, 152);
+}
+.social {
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+  bottom: 1rem;
+  margin-top: 0.5rem;
+  width: fit-content;
+}
+
+.social a {
+  color: dimgray;
 }
 
 h3 {
@@ -45,18 +57,4 @@ h3 {
 ul {
   font-size: 1rem;
   margin-left: 2rem;
-}
-
-footer {
-  display: flex;
-  gap: 1rem;
-  margin: auto;
-  bottom: 1rem;
-  position: absolute;
-  width: calc(100% - 40px);
-  justify-content: center;
-}
-
-footer a {
-  color: dimgray;
 }
